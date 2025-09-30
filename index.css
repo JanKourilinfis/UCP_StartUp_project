@@ -1,0 +1,43 @@
+:root{
+    --WHITECOLOR:white;
+    --BLACKCOLOR:black;
+}
+*{
+    margin: 0px;
+}
+ul li{
+    display: inline;
+    font-size: 20px;
+    color: var(--WHITECOLOR);
+    padding: 10px;
+}
+ul{
+    text-align: right;
+}
+nav{
+    background-color: var(--BLACKCOLOR);
+}
+a{
+    text-decoration: none;
+    color: var(--WHITECOLOR);
+}
+
+a:hover{
+    text-decoration: underline var(--WHITECOLOR);
+}
+a:visited{
+    color: var(--WHITECOLOR);
+}
+
+
+
+footer{
+    background-color: var(--BLACKCOLOR);
+    height: 50px;
+
+}
+footer p{
+    color: white;
+    text-align: right;
+    padding: 15px;
+}
