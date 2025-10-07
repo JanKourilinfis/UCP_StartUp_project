@@ -8,18 +8,28 @@
 ul li{
     display: inline;
     font-size: 20px;
-    color: var(--WHITECOLOR);
+    /*color: var(--WHITECOLOR);*/
     padding: 10px;
+}*
+#nadpis{
+    text-align: right;
 }
 ul{
-    text-align: right;
+    margin: 20px;
 }
 nav{
     background-color: var(--BLACKCOLOR);
 }
-a{
+#ukazka{
     text-decoration: none;
     color: var(--WHITECOLOR);
+}
+#beta{
+    margin-top: 765px;
+}
+#warning{
+    color: red;
+    text-decoration: underline;
 }
 
 a:hover{
@@ -28,7 +38,6 @@ a:hover{
 a:visited{
     color: var(--WHITECOLOR);
 }
-
 
 
 footer{

@@ -28,6 +28,21 @@ a:hover{
 a:visited{
     color: var(--WHITECOLOR);
 }
+#uvítání{
+    margin-bottom: 50px;
+}
+#prvniRocnik{
+    margin-top: 50px;
+}
+#druhyRocnik{
+    margin-top: 50px;
+}
+#tretiRocnik{
+    margin-top: 50px;
+}
+#ctvrtyRocnik{
+    margin-top: 50px;
+}
 
 
 
