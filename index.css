@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
     --WHITECOLOR:white;
     --BLACKCOLOR:black;
+    --BLUECOLOR:lightblue;
 }
 *{
     margin: 0px;
@@ -14,22 +17,44 @@ ul li{
 #nadpis{
     text-align: right;
 }
+#vitani{
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+}
 ul{
     margin: 20px;
 }
 nav{
     background-color: var(--BLACKCOLOR);
 }
+main{
+    background-color: var(--BLUECOLOR);
+}
+#informace{
+    text-align: center;
+    font-family: Cabin;
+}
+#tlacitkoInfo{
+    background: none;
+    border: none;
+    font-family: Cabin;
+}
+#kontaktovaciInfo{
+    font-family: Cabin;
+}
 #ukazka{
     text-decoration: none;
-    color: var(--WHITECOLOR);
+    color: var(--WHITECOLOR)
 }
 #beta{
     margin-top: 765px;
+    font-family: Cabin;
 }
 #warning{
     color: red;
     text-decoration: underline;
+    font-family: Cabin;
 }
 
 a:hover{
