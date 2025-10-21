@@ -27,6 +27,7 @@ ul{
 }
 nav{
     background-color: var(--BLACKCOLOR);
+    padding: 0.02px;
 }
 main{
     background-color: var(--BLUECOLOR);
@@ -40,12 +41,17 @@ main{
     border: none;
     font-family: Cabin;
 }
+#kontakt{
+    padding-top: 100px;
+    text-align: center;
+}
 #kontaktovaciInfo{
     font-family: Cabin;
 }
 #ukazka{
     text-decoration: none;
-    color: var(--WHITECOLOR)
+    color: var(--WHITECOLOR);
+    font-size: 20px;
 }
 #beta{
     margin-top: 765px;
@@ -55,6 +61,9 @@ main{
     color: red;
     text-decoration: underline;
     font-family: Cabin;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 100px;
 }
 
 a:hover{
@@ -67,8 +76,6 @@ a:visited{
 
 footer{
     background-color: var(--BLACKCOLOR);
-    height: 50px;
-
 }
 footer p{
     color: white;

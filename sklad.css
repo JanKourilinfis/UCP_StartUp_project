@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
     --WHITECOLOR:white;
     --BLACKCOLOR:black;
+    --BLUECOLOR:lightblue;
 }
 *{
     margin: 0px;
@@ -11,8 +14,16 @@ ul li{
     color: var(--WHITECOLOR);
     padding: 10px;
 }
+#uvítání{
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+}
 ul{
     text-align: right;
+}
+main{
+    background-color: var(--BLUECOLOR);
 }
 nav{
     background-color: var(--BLACKCOLOR);
@@ -30,24 +41,41 @@ a:visited{
 }
 #uvítání{
     margin-bottom: 50px;
+    font-family: Cabin;
 }
 #univerzalni{
     margin-top: 50px;
+    font-family: Cabin;
+    text-align: center;
 }
 #poznamky{
     margin-top: 50px;
+    font-family: Cabin;
+    text-align: center;
 }
 #prvniRocnik{
     margin-top: 50px;
+    font-family: Cabin;
+    text-align: center;
 }
 #druhyRocnik{
     margin-top: 50px;
+    font-family: Cabin;
+    text-align: center;
 }
 #tretiRocnik{
     margin-top: 50px;
+    font-family: Cabin;
+    text-align: center;
 }
 #ctvrtyRocnik{
     margin-top: 50px;
+    font-family: Cabin;
+    text-align: center;
+}
+.ucebnice{
+    font-family: Cabin;
+    text-align: center;
 }
 
 
