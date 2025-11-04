@@ -25,6 +25,9 @@ ul{
 main{
     background-color: var(--BLUECOLOR);
 }
+#div{
+    padding: 50px;
+}
 nav{
     background-color: var(--BLACKCOLOR);
 }
@@ -77,6 +80,9 @@ a:visited{
     font-family: Cabin;
     text-align: center;
 }
+/*#f4r{
+    padding-bottom: 50px;
+}*/
 
 
 
