@@ -21,6 +21,7 @@ ul li{
     font-family: Raleway;
     font-weight: 700;
     text-align: center;
+    padding: 20px;
 }
 ul{
     margin: 20px;
@@ -35,6 +36,7 @@ main{
 #informace{
     text-align: center;
     font-family: Cabin;
+    padding: 50px;
 }
 #tlacitkoInfo{
     background: none;
